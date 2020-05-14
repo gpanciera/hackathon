@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+#norrisbg {
+  background-image: 
+      radial-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.35)
+      );
+  background-size: cover;
+  height: 100vh;
+  background-color: #303030;
+  font-family: 'Crimson Text', serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 325%;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0,0,0,0.75);
+}
+
+#date {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#date img {
+ margin-top: -20px;
+}
+
+#loc {
+  font-size: 24px;
+}
+
+h6 {
+  margin: 0;
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.search  {
+  height: 100%;
+  padding: 0 32px 0 26px;
+  z-index: 2;
+  background: 0 0;
+  border: none;
+  /* -moz-box-sizing: border-box; */
+  box-sizing: border-box;
+  color: #fff;
+  line-height: 20px;
+  outline: 0;
+  }

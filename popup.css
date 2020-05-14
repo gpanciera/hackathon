@@ -1,0 +1,48 @@
+body {
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+        ),
+        url(chucknorris2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #303030;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* .container {
+    display: flex;
+    height: 100%;
+    background-size: cover;
+} */
+
+.cnpic {
+    /* flex-basis: 1600px 875px; */
+    /* flex-basis: 2500px;
+    flex-grow: 1;
+    width: 100%; */
+
+    /* max-width: 1000px; */
+    /* position: relative; */
+    /* display: inline-block; */
+    /* z-index: 0; */
+}
+
+header {
+    font-size: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+/* h1 { */
+    /* position: absolute; */
+    /* color: white;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10; */
