@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Our Cool Extension",
+  "name": "John Wick Generator",
   "version": "0.1",
+  "description": "Displays a new John Wick joke and background along with the local date, time and weather in new tabs or windows",
   "content_scripts": [
     {
       "matches": [
